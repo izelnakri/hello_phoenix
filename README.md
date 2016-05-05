@@ -18,11 +18,11 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 
 # Concerns
 - make phoenix/elixir read assets.json and use it in the layout files(priv/static/js/ is the compiled directory)
-- paper_trail (none - biggest problem)
-- session support is problematic in Elixir (for distributed systems - problematic)
+- paper_trail (none - biggest problem), paper_trail isnt perfect either
+- session support is problematic in Elixir (for distributed systems - problematic = minor)
 - railroady
-- slugs (problematic)
-- search (few libraries)
+- slugs (problematic, not much native support is better than ruby)
+- search (few libraries, should be done on database level)
 - global_phone (good to have)
 
 do deployment
